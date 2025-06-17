@@ -54,9 +54,9 @@ Once the repository is cloned, and dependencies are initialized, follow the step
 
 You can specify the `clustername` variable:
 
-####  Using `terraform.tfvars`
+####  Using `terraform.tfvars` or setup directly from opentofu command
 
-Create a `terraform.tfvars` file in your directory
+Create a `terraform.tfvars` file in your directory or use these commands directly:
 ```
 opentofu plan -var "clustername=your-cluster-name"
 
