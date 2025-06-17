@@ -7,7 +7,6 @@ This repository contains an example of how to set up an AWS EKS cluster with Kar
 - [Installation](#installation)
 - [Usage](#usage)
 - [Passing Variables](#passing-variables)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Prerequisites
@@ -63,3 +62,5 @@ opentofu plan -var "clustername=your-cluster-name"
 opentofu apply -var "clustername=your-cluster-name"
 ```
 ## AFTER That ArgoCd will be available on your cluster You can deploy prometheus,alermanager,grafana,loki,thanos,promtail,velero via Helmcharts using ArgoCd
+
+### using opentofu not terraform As opentofu is under Apache opensource free license while terraform nolonger has a commercial free license.
