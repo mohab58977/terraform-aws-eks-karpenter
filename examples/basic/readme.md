@@ -25,7 +25,7 @@ Follow these steps to get started with the project:
 
     ```bash
     git clone https://github.com/mohab58977/terraform-aws-eks-karpenter.git
-    cd terraform-aws-eks-karpenter
+    cd terraform-aws-eks-karpenter/examples/basic
     ```
 
 2. **Configure your AWS credentials**:
@@ -62,4 +62,4 @@ opentofu plan -var "clustername=your-cluster-name"
 
 opentofu apply -var "clustername=your-cluster-name"
 ```
-## AFTER That ArgoCd will be available on your cluster You can deploy prometheus,alermanager,grafana,loki,thanos,promtail via Helmcharts
+## AFTER That ArgoCd will be available on your cluster You can deploy prometheus,alermanager,grafana,loki,thanos,promtail,velero via Helmcharts using ArgoCd
